@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.flexbox-header, .flexbox-summary, .flexbox-payment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-company {
+    display: flex;
+    align-items: center;
+}
+
+.logo-company img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.billable-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.flexbox-footer {
+    display: flex;
+    justify-content: flex-end;
+}
